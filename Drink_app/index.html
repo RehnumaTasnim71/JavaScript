@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drink App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <input type="text" id="searchInput" placeholder="Search drink...">
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <div class="container">
+    <div class="drinks" id="drinks"></div>
+    <div class="group">
+      <h3>Group Drinks (<span id="count">0</span>/7)</h3>
+      <div id="groupList"></div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
